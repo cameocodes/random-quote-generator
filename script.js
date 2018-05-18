@@ -1,7 +1,7 @@
 const btnClick = document.querySelector('button')
 const para = document.querySelector('p')
 const head = document.querySelector('h3')
-const request = fetch('https://cameocodes.github.io/random-quote-generator/quotes.json')
+const request = fetch('/quotes.json')
 
 request
     .then(response => response.json())
